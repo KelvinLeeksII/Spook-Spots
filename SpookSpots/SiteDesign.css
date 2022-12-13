@@ -1,0 +1,496 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+      margin:0;
+        padding:0;}
+	/*NAV BAR*/
+   nav{
+       background-color:#666666;
+       border: 3px black solid;
+       display:block;
+       margin:0 0 1% 0;
+       padding:0;
+}
+   ul.nav{
+          list-style-type:none;
+          margin:0;
+          padding:1% 0 1% 0;
+          text-align: center;
+}
+   li.nav,a.nav,a.nav:visited{
+                              text-decoration: none;
+	                      color:white;
+                              display:inline;
+	                      text-align:center;
+	                      padding:1%;
+	                      margin:0;
+}
+   li.nav:not(#last){
+                     border-right:solid 3px black;
+}
+   a.nav:hover{
+               background-color:cadetblue;
+               margin:0;
+               padding:1%;
+               color:black;
+}
+   #current{
+            border:2px black solid;
+            border-radius:20px;
+            padding:1%;
+
+}
+   #navicon{
+            display:none;
+}
+   label{
+         display:none;
+}
+
+/* END NAV BAR*/
+
+
+
+   #banner{
+     display: inline-block;
+        margin:0;
+				padding:0;
+        width:100%;
+}
+   body{
+        background-color:#bfd8d9;
+        margin:0;
+        padding:0;
+}
+/*Home Page*/
+   #mainArticle{
+                display:block;
+                margin:3% 10% 5% 10%;
+                padding:10%;
+                text-align:center;
+                font-size:1.8em;
+                border: 6px outset black;
+                background-color:#ececec;
+                border-radius: 25px;
+}
+   #titleHead{
+              margin:0;
+              padding-bottom:4%;
+}
+   #titleSubhead{
+                 margin:0;
+                 padding:0;
+}
+   #mainSubarticle{
+                display:block;
+                margin:5%;
+                padding:5%;
+                columns:50px 2;
+                column-rule: 3px solid black;
+                font-size:1.6em;
+                border: 6px outset black;
+                background-color:#ececec;
+}
+   #phonelist{
+              display:block;
+              margin:5% auto 5% auto;
+              padding:5%;
+	      width:60%;
+	      text-align:center;
+              font-size:1.6em;
+	      border: 6px solid black;
+              background-color:#ececec;
+	      list-style-position: inside;
+
+}
+   #regionlist{
+               list-style-type:upper-roman;
+	       margin:1%;
+}
+   .numlist{
+            list-style-type: disc;
+	    margin:2%;
+}
+   #gearlist{
+             display:block;
+             margin:5% auto 5% auto;
+             padding:5%;
+	     width:60%;
+	     text-align: center;
+             font-size:1.6em;
+	     border: 6px solid black;
+             background-color:#ececec;
+}
+   #gearitems{
+              list-style-position: inside;
+	      list-style-type:disc;
+	      margin:1% auto 1% auto;
+	      padding:0;
+}
+   .listextras{
+               list-style-type: none;
+}
+   #video{
+          display:block;
+	  text-align: center;
+}
+   iframe{
+          width:70%;
+	  height:600px;
+}
+/*End Home Page*/
+
+	h1{
+            display:block;
+           text-align:center;
+           margin:0px;
+           padding:0px;
+}
+    h2,h3{
+          text-align:center;
+          margin:3px;
+          padding:1px;
+}
+
+    hr{
+       background-color:#666666;
+       display:block;
+       width:75%;
+       height:5px;
+       margin-left:auto;
+       margin-right:auto;
+}
+
+   .hotelpic{
+             border:solid 6px #666666;
+
+
+
+}
+
+   .hoteldisc{
+              background-color:#ececec;
+	      font-size:1.4em;
+  	      text-align:center;
+	      margin:2%;
+	      padding:2%;
+  	      border:solid 6px #666666;
+}
+
+   .rates{
+          border:2px solid black;
+          width:40%;
+          margin:1% 0 0 0;
+          padding:0;
+          border-collapse:collapse;
+          caption-side:bottom;
+
+}
+
+   td,th{
+         font-size:1.2em;
+         border:3px black solid;
+         text-align:center;
+         background-color:#ececec;
+         padding-top:4%;
+         padding-bottom:4%;
+}
+
+   div{
+       display:flex;
+       flex-direction:row;
+       justify-content:space-around;
+}
+
+
+   .fig{
+        width:40%;
+        margin:0;
+        padding:0;
+}
+   figcaption{
+              font-style:italic;
+	      font-size:1.2em;
+}
+   .hauntsite{
+              text-decoration:none;
+              font-weight:bold;
+	      color:black;
+}
+
+
+/*Footer*/
+   #footerhr{
+             height:5px;
+             width:99%;
+	     margin-bottom: 0;
+	     background-color: black;
+	     padding:0;
+}
+   footer{
+          display:flex;
+	  flex-direction: row;
+	  justify-content: space-around;
+          background-color:#666666;
+          width:100%;
+          margin:0;
+          padding:2% 0 2% 0;
+	  font-size:1.3em;
+}
+   #newsletter{
+               border:4px solid black;
+               background-color:#ececec;
+	       text-align:center;
+               height:5%;
+               width:20%;
+}
+   #sitemap{
+            display:block;
+            width:20%;
+            text-align:center;
+	    border:4px solid black;
+	    padding:1%;
+	    background-color:#ececec;
+}
+   h4{
+      margin-bottom:0;
+}
+   #sitemaphr{
+              margin:0;
+              background-color:black;
+}
+   #sitelist,.sitea{
+                    list-style-type: none;
+	            margin:0 auto 0 auto;
+	            text-align: center;
+	            padding:5%;
+}
+   .contactus{
+              border:none;
+	      padding:2%;
+}
+   #contactus{
+              border:none;
+              padding:1%;
+}
+
+/*Mobile CSS*/
+@media screen and (max-width : 660px ){
+
+
+/*NAV BAR*/
+   label{
+         display:block;
+         font-size:30px;
+         margin-left:1%;
+}
+   ul.nav{
+          text-align:center;
+          width:100%;
+          display:none;
+}
+
+	li.nav{
+               display:block;
+               margin:0;
+               padding:7px;
+}
+   li.nav:not(#last){
+                     border-bottom:solid 3px black;
+}
+   #navicon:checked + ul.nav{
+                             display:block;
+                             height:100%;
+
+}
+/*NAV BAR*/
+
+   body{
+        padding:0;
+        margin:1px;
+        background-color:#bfd8d9;
+}
+/*Page Name*/
+   h1{
+      display:block;
+      text-align:center;
+      margin:0;
+      padding:0;
+}
+/*Hotel Name and City*/
+   h2,h3{
+         text-align:center;
+	 margin:3px;
+	 padding:1px;
+}
+
+   hr{
+      background-color:#666666;
+      display:block;
+      width:75%;
+      height:5px;
+      margin-left:auto;
+      margin-right:auto;
+}
+
+   .hotelpic{
+             width:90%;
+             padding:0;
+             border:solid 3px #666666;
+}
+
+   .hoteldisc{
+              display:block;
+	      background-color:#ececec;
+	      font-size:1.2em;
+  	      text-align:center;
+              margin-left:auto;
+	      margin-right:auto;
+	      padding:2%;
+  	      border:solid 6px #666666;
+}
+
+   .rates{
+          border:2px solid black;
+          width:70%;
+          margin:80;
+          border-collapse:collapse;
+          caption-side:bottom;
+}
+
+   td,th{
+         font-size:1.2em;
+         border:3px black solid;
+         text-align:center;
+         background-color:#ececec;
+         padding-top:4%;
+         padding-bottom:4%;
+}
+   figcaption{
+              font-style:italic;
+	      font-size:1.2em;
+}
+   div{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+}
+   .hauntsite{
+              text-decoration:none;
+              font-weight:bold;
+	      color:black;
+}
+/*Home Page*/
+   #mainArticle{
+                display:block;
+		width:65%;
+                margin:3% auto 5% auto;
+                padding:10%;
+                text-align:center;
+                font-size:1.8em;
+                border: 6px outset black;
+                background-color:#ececec;
+                border-radius: 25px;
+}
+   #mainSubarticle{
+                   display:block;
+                   margin:5%;
+                   padding:5%;
+                   columns:100px 1;
+                   font-size:1.6em;
+                   border: 6px outset black;
+                   background-color:#ececec;
+                   text-align:center;
+}
+
+   iframe{
+          width:90%;
+	  height:300px;
+}
+   #phonelist{
+              display:block;
+              margin:5% auto 5% auto;
+              padding:5%;
+	      width:60%;
+	      text-align:left;
+              font-size:1.2em;
+	      border: 6px solid black;
+              background-color:#ececec;
+}
+   #regionlist{
+               list-style-type:upper-roman;
+	       margin:1%;
+}
+   .numlist{
+            list-style-type: disc;
+	    margin:2%;
+}
+   #gearlist{
+             display: block;
+             margin:5% auto 5% auto;
+             padding:5%;
+	     width:80%;
+	     text-align: center;
+             font-size:1.6em;
+	     border: 6px solid black;
+             background-color:#ececec;
+	     list-style-position: inside;
+}
+   #gearitems{
+              display:inline;
+	      list-style-type:disc;
+	      margin:1%;
+	      padding:0;
+}
+   .listextras{
+               list-style-type: none;
+}
+/*end Home Page*/
+/*footer*/
+   footer{
+          display:flex;
+	  flex-direction: column;
+	  justify-content:center;
+          background-color:#666666;
+          width:100%;
+          margin:0;
+          padding:2% 0 2% 0;
+	  font-size:1.3em;
+}
+   #newsletter{
+               border:4px solid black;
+               background-color:#ececec;
+	       text-align:center;
+               height:5%;
+               width:95%;
+	       margin:1% auto 0 auto;
+}
+   #sitemap{
+            margin:1% auto 0 auto;
+            width:90%;
+            text-align:center;
+	    border:4px solid black;
+	    padding:0%;
+	    background-color:#ececec;
+}
+   h4{
+      margin-bottom:0;
+}
+   #sitemaphr{
+              margin:0 auto 0 auto;
+              background-color:black;
+}
+    #sitelist,.sitea{
+                     list-style-type: none;
+	             margin:0 auto 0 auto;
+	             text-align: center;
+	             padding:5%;
+}
+   #contactus{
+              border:none;
+              padding:1%;
+              margin:0 auto 0 auto;
+}
+
+}
